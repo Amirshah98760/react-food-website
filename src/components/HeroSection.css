@@ -1,49 +1,49 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .hero-container {
-    background-image: url("/src\assets\heroimg.jpg");
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .hero-container div {
-    margin-top: 20px;
-  }
-  
-  .hero-container input {
-    margin-right: 10px;
-    padding: 12px;
-    width: 310px;
-    border: none;
-    font-size: 18px;
-    outline: none;
-    border-radius: 4px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  }
-  .hero-container input:focus{
-    outline: 2px solid rgb(35, 171, 186);
-  }
-  .hero-container button {
-    padding: 13px 22px;
-    background-color: #F46E82;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 15px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .hero-container button:hover {
-    background-color: #f75e75;
-  }
+.hero-container {
+  background-image: url("https://plus.unsplash.com/premium_photo-1679591002405-13fec066bd53?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-container div {
+  margin-top: 20px;
+}
+
+.hero-container input {
+  margin-right: 10px;
+  padding: 12px;
+  width: 310px;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  border-radius: 4px;
+
+}
+.hero-container input:focus{
+  outline: 2px solid rgb(35, 171, 186);
+}
+.hero-container button {
+  padding: 13px 22px;
+  background-color: #F46E82;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-container button:hover {
+  background-color: #f75e75;
+}

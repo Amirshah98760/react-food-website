@@ -3,6 +3,7 @@ import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import FoodMenuList from './components/FoodMenuList';
 import ExploreFoodList from './components/ExploreFoodList';
+import './App.css'
 
 function App() {
   return (
